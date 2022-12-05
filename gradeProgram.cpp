@@ -56,7 +56,7 @@ int CalcMark(int newLevel) {
             percent = 25;
             break;
         default:
-            return -1;
+            percent = -1;
             break;
     }
     return percent;
