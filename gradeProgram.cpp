@@ -1,14 +1,13 @@
 // Copyright (c) 2022 Peter Sobowale All rights reserved.
-//
 // Created by: Peter Sobowale
-// Created on: Nov 27 2022
-// This program asks the user for a grade level,
+// Created on: Nov 27, 2022
+// This program asks the user for a grade level
 // then returns the middle percentage.
 
 #include <iostream>
 
 
-// this functiongets the middle percentage of a given grade level
+// this function gets the middle percentage of a given grade level
 int CalcMark(int newLevel) {
     // declaring the middle percent variable
     int percent;
@@ -66,7 +65,7 @@ int CalcMark(int newLevel) {
 // this function gets input from the user
 // and calls the percent function
 int main() {
-    // declaring variables 
+    // declaring variables
     std::string levelUser;
     int switchLevelUser = 0, percentUser;
 
